@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin: 15px;
+  position: relative;
+}
+.header .logo {
+  float: left;
+  width: 200px;
+  text-align: center;
+  padding: 20px 0;
+  margin-right: 50px;
+  background-color: blue;
+  color: white;
+}
+.header .navigation ul li {
+  display: inline-block;
+  padding: 20px 10px;
+}
+.header .navigation ul li a {
+  text-decoration: none;
+  transition: all 0.5s;
+  font-size: 18px;
+  color: black;
+}
+.header .navigation ul li a:hover {
+  color: blue;
+}
+.header .login {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  padding-right: 10px;
+}
+.header .login button {
+  padding: 10px 20px;
+  border: 1px solid rgb(138, 130, 130);
+  border-radius: 2px;
+  transition: all 0.9;
+}
+.header .login button:hover {
+  border: 1px solid blue;
+}
+@media screen and (max-width: 1000px) {
+  .header .logo {
+    float: none;
+  }
+  .header .navigation ul li {
+    display: block;
+    text-align: left;
+    background-color: blue;
+    border-bottom: 1px solid white;
+    transition: all 0.5s;
+  }
+  .header .navigation ul li:hover {
+    background-color: rgb(73, 73, 226);
+  }
+
+  .header .navigation ul li a {
+    color: white;
+  }
+  .header .navigation ul li a:hover {
+    color: white;
+  }
+}

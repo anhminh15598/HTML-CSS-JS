@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.carousel {
+  color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 100px 200px;
+  background-color: teal;
+}
+.carousel h1 {
+  margin: 20px;
+}
+.carousel p {
+  margin: 20px;
+}
+
+.carousel .btn {
+  background-color: orange;
+  font-size: 20px;
+  padding: 10px 20px;
+  color: white;
+  border: rgba(0, 0, 0, 0.11) solid 1px;
+  border-radius: 5px;
+}

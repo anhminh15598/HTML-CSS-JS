@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.ourService {
+  background-color: rgb(204, 201, 201);
+  padding: 50px;
+}
+.ourService h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.ourService .text {
+  text-align: center;
+  font-size: 20px;
+}
+
+.listItem {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 20px;
+}
+@media screen and (max-width: 700px) {
+  .listItem {
+    grid-template-columns: auto;
+  }
+  .listItem .item {
+    margin-bottom: 10px;
+  }
+}
+.listItem .item .item-top {
+  color: white;
+  background-color: rgb(83, 192, 192);
+  text-align: center;
+  padding: 50px 0;
+}
+.listItem .item .item-bot {
+  background-color: white;
+  padding: 50px 20px;
+}
